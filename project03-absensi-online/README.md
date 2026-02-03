@@ -14,5 +14,5 @@ validasi data mahasiswa, dan relasi data master–transaksi.
 - HTML, CSS, JavaScript
 - Google Sheets
 
-## Demo[
-https://script.google.com/macros/s/AKfycbyG5AVotKVRLktg7BJyMaTieVnKF28bsa6_RMY25rx5HQBv_v1703urdVdFCj849vA/exec
+## Demo
+[https://script.google.com/macros/s/AKfycbyG5AVotKVRLktg7BJyMaTieVnKF28bsa6_RMY25rx5HQBv_v1703urdVdFCj849vA/exec](https://script.google.com/macros/s/AKfycbxhxO6reQLEKOtMh0nz0pj7OM8z_XdAW6OCS8agRQ/dev)
