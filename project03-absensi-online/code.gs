@@ -1,4 +1,4 @@
-const SHEET_ID = '1UXGMUe7Kt27j1b1TQPTLQEZFKcmMBzqGHUK8EH6PgIw/edit?gid=2057767387#gid=2057767387';
+const SHEET_ID = '1UXGMUe7Kt27j1b1TQPTLQEZFKcmMBzqGHUK8EH6PgIw';
 function doGet() {
 return HtmlService.createTemplateFromFile('index')
 .evaluate()
