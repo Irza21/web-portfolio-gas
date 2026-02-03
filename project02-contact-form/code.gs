@@ -1,18 +1,25 @@
-<script>
-const form = document.getElementById('contactForm');
-const statusDiv = document.getElementById('status');
-form.addEventListener('submit', function(e) {
-e.preventDefault();
-const data = {
-name: form.name.value,
-email: form.email.value,
-message: form.message.value
-};
-google.script.run
-.withSuccessHandler(function() {
-statusDiv.innerText = 'Message sent successfully';
-form.reset();
-})
-.submitForm(data);
-});
-</script>
+const SHEET_ID = '1pXA6eiKX1fFc374NodY6mmKDbIvKv2QoQnxKHI09tKQ';
+
+
+function doGet() {
+return HtmlService.createTemplateFromFile('index')
+.evaluate()
+.setTitle('Contact Form');
+}
+
+
+function include(filename) {
+return HtmlService.createHtmlOutputFromFile(filename).getContent();
+}
+
+
+function submitForm(data) {
+const sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
+sheet.appendRow([
+new Date(),
+data.name,
+data.email,
+data.message
+]);
+return 'success';
+}
