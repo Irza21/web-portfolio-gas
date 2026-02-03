@@ -5,7 +5,7 @@ const PROJECT_ID = 'project4-pengajuan-sql';
 const LOCATION = 'us';
 const DATASET_ID = 'app_pengajuan';
 const TABLE_MAHASISWA = 'data_mahasiswa';
-const SPREADSHEET_ID = '1MSaADOwQn_c6wVvPiDOrA_atS8cQQw8p57Y8hRp6RXg';
+const SPREADSHEET_ID = '12pFyx4hy9oOEz9qYfZrmQZN_lq0QlKgY1Fl_Oz8DWEo';
 const SHEET_PENGAJUAN = 'data_pengajuan';
 
 /*************************
