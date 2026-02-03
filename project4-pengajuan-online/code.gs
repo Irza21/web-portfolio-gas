@@ -1,7 +1,7 @@
 /*************************
 * CONFIG
 *************************/
-const PROJECT_ID = 'project4-pengajuan-sql';
+const PROJECT_ID = 'lofty-complex-486307-a9';
 const LOCATION = 'us';
 const DATASET_ID = 'app_pengajuan';
 const TABLE_MAHASISWA = 'data_mahasiswa';
