@@ -1,5 +1,7 @@
 # Sistem Pengajuan Online
 Aplikasi web sederhana berbasis Google Apps Script untuk pengajuan izin mahasiswa.
+## Demo
+https://script.google.com/macros/s/AKfycbyk_cpKkb2770mCIEEK0c7CBXwWlhmS4yjwEIJ8xO8/dev
 ## Fitur
 - Login mahasiswa menggunakan NIM (BigQuery)
 - Submit pengajuan izin
@@ -35,5 +37,3 @@ Edit di `Code.gs`:
 const PROJECT_ID = 'project-id-anda';
 const DATASET_ID = 'app_pengajuan';
 const SPREADSHEET_ID = 'spreadsheet-id';
-## Demo
-https://script.google.com/macros/s/AKfycbyk_cpKkb2770mCIEEK0c7CBXwWlhmS4yjwEIJ8xO8/dev
